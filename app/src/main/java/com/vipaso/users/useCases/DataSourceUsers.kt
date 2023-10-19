@@ -33,7 +33,7 @@ class DataSourceUsers(
                 LoadResult.Page(
                     data = result.users,
                     prevKey = null,
-                    nextKey = null
+                    nextKey = result.nextPage(current)
                 )
             } catch (e: Exception) {
                 LoadResult.Error(e)
