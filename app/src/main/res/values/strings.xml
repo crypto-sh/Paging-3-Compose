@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vipaso</string>
+    <string name="search_place_holder">searching users…</string>
+    <string name="internet_connection_error">Please check your internet connection and try later.</string>
+    <string name="unknown_error">Error while loading data</string>
+    <string name="server_exception">Exception on server side</string>
+    <string name="invalid_request">invalid request error</string>
+    <string name="empty_result">there is no user to show</string>
+</resources>
